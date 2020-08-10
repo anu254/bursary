@@ -1,0 +1,351 @@
+body{
+    background: url(../media/image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*colum scaling */
+.col-01{width:8.33%}
+.col-02{width:16.66%}
+.col-03{width:25%}
+.col-04{width:33.33%}
+.col-05{width:41.66%}
+.col-06{width:50%}
+.col-07{width:58.33%}
+.col-08{width:66.33%}
+.col-09{width:75%}
+.col-10{width:83.33%}
+.col-11{width:91.66%}
+.col-12{width:100%}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_container{ 
+    height: auto;
+    
+    margin: 0 auto;
+}
+.top_head{
+    height: 30px;
+    background:  rgba(0, 0, 0,0.5);
+}
+.nav{
+    
+    height: 50px;
+    background: #0b6328;
+}
+.banner{
+    background: url(../media/image1.jpg);
+    height: 500px;
+    
+}
+.blank{
+    background: #fff;
+    height: 500px;
+    
+}
+.content{
+   
+    height: 300px;
+    background: rgb(253, 252, 252);
+}
+.footer{
+    height: 50px;
+    background:  rgba(0, 0, 0,0.5);
+}
+
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    float: left;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+.nav ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
+}
+
+.banner figure img{
+    width: 100%;
+    height: 80%;
+}
+.banner figure{
+    overflow: hidden;
+    
+    
+}
+/* social media icons */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  /* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 23%;
+    margin: 10px 10px 10px 10px;
+ /* Should be removed. Only for demonstration */
+  }
+  /* Clear floats after the columns */
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  /*login*/
+  .login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+/**
+about us
+*/
+
+ 
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column_us {
+    float: left;
+    width: 22.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  .row{
+    text-align: center;   
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  /*
+  reg
+  */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+ .column_reg{
+     padding-left: 80px;
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    
+ }
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .center {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
